@@ -34,6 +34,7 @@ $conn->close();
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a href="index.php" class="to-back">Volver</a>
   <h1>Editar Contacto</h1>
   <form action="edit.php" method="POST">
     <input type="hidden" name="id" value="<?= $contacto['id'] ?>">

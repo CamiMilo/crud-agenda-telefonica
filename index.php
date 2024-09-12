@@ -19,6 +19,7 @@ $conn->close();
 <body>
   <h1>Agenda Telefónica</h1>
   <a href="create.php">Agregar nuevo contacto</a>
+  <a href="tabla-comparativa.php">Tabla comparativa</a>
   <table border="1">
     <thead>
       <tr>

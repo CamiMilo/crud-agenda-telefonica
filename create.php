@@ -26,6 +26,7 @@ $conn->close();
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a href="index.php" class="to-back">Volver</a>
   <h1>Agregar Contacto</h1>
   <form action="create.php" method="POST">
     <label>Nombre: </label>
